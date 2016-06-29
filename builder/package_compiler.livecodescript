@@ -670,7 +670,7 @@ private command compilerExecute @self, pCommands
          next repeat
       end if
       
-      if false then
+      if true then
          compilerProgress self, "TRACE: Op =" && tCommand["type"] && "(line" && tCommand["line"] && colon && tCommand["line content"] & ")"
       end if
       
